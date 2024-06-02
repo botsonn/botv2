@@ -13,7 +13,7 @@ source boruto
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/19903b96bd6a67adfbb30.jpg" alt="StringGen">
+  <img src="https://telegra.ph/file/7b6a245c12784a6233069.jpg" alt="StringGen">
 
  
 ### 🤤 ғᴇᴀᴛᴜʀᴇs
@@ -25,7 +25,7 @@ source boruto
 
 ### 🚀 ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
    <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/GM-mohamed-essam/boruto"> 
-<img src="https://graph.org/file/d1018753d9a85f46c2fe4.jpg" width="320" height="38.45"/></a></p>
+<img src="https://telegra.ph/file/a14cf20fd2761d966514b.jpg" width="320" height="38.45"/></a></p>
 
 ### 🙄 ᴅᴇᴍᴏ/ᴛᴇsᴛ ʙᴏᴛ
  [ 𝐂𝐘𝐁𝐄𝐑 BORUTO](https://telegram.me/zj_x3)
