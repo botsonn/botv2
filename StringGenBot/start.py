@@ -15,19 +15,19 @@ async def start(bot: Client, msg: Message):
         text=f"""𝐇𝐞𝐲 {msg.from_user.mention}🍷,
 
 𝐈 𝐀𝐦 {me2},
-𝐓𝐑𝐔𝐒𝐓𝐄𝐃 𝐒𝐓𝐑𝐈𝐍𝐆 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐎𝐑 𝐁𝐎𝐓.
-𝐅𝐔𝐋𝐋𝐘 𝐒𝐀𝐅𝐄 & 𝐒𝐄𝐂𝐔𝐑𝐄.
-𝐍𝐎 𝐀𝐌𝐘 𝐄𝐑𝐑𝐎𝐑.
+انا بوت  توليد جلسات البايروجرام 1 .
+والبايرجرامv2.
+وجلسات الترمكس بشكل امن بوتسورس نجد 🇸🇦.
 
-𝐌𝐚𝐝𝐞 𝐁𝐲  : [𝐁𝐎𝐑𝐔𝐓𝐎 「 ♱ 」 Боруто](tg://user?id={OWNER_ID}) !""",
+Dev🏅  : [𝒏𝒂𝒋𝒅 🇸🇦](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="⚡𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄 𝐒𝐓𝐑𝐈𝐍𝐆⚡", callback_data="generate")
+                    InlineKeyboardButton(text=" استخراج ", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton(" 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/btyu_gp"),
-                    InlineKeyboardButton("َ𝐒𝐎𝐔𝐑𝐂𝐄 𝐁𝐎𝐑𝐔𝐓𝐎 𓏺", url="https://t.me/zj_x3")
+                    InlineKeyboardButton(" 𝒔𝒐𝒖𝒓𝒄𝒆 𝒏𝒂𝒋𝒅 🇸🇦", url="https://t.me/ngd_1"),
+                    InlineKeyboardButton("َ𝐒𝐎𝐔𝐑𝐂𝐄 𝐁𝐎𝐑𝐔𝐓𝐎 𓏺", url="https://t.me/ngd_5")
                 ]
             ]
         ),
