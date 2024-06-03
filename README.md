@@ -28,7 +28,7 @@ source boruto
 <img src="https://telegra.ph/file/a14cf20fd2761d966514b.jpg" width="320" height="38.45"/></a></p>
 
 ### 🙄 ᴅᴇᴍᴏ/ᴛᴇsᴛ ʙᴏᴛ
- [ 𝐂𝐘𝐁𝐄𝐑 BORUTO](https://telegram.me/zj_x3)
+ [ 𝒔𝒐𝒖𝒓𝒄𝒆 𝒏𝒂𝒋𝒅 🇸🇦](https://telegram.me/ngd_1)
 
 ```
 Atleast Give A Star and Fork The Repo 🖤
