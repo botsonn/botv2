@@ -93,15 +93,15 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
     if not is_bot:
         t = "» من فضلك أرسل لك  **رقم الهاتف ** مع رمز البلد الذي تريد إنشاء جلسة له  \nمثال  : `+966000000000`'"
     else:
-        t = "ᴩʟᴇᴀsᴇ sᴇɴᴅ ʏᴏᴜʀ **ʙᴏᴛ_ᴛᴏᴋᴇɴ** ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ.\nᴇxᴀᴍᴩʟᴇ : `5432198765:abcdanonymousterabaaplol`'"
+        t = "يرجى إرسال  ** توكن البوت الخاص بك  ** للمتابعه.\مثال : `5432198765:abcdanonymousterabaaplol`'"
     phone_number_msg = await bot.ask(user_id, t, filters=filters.text)
     if await cancelled(phone_number_msg):
         return
     phone_number = phone_number_msg.text
     if not is_bot:
-        await msg.reply("» ᴛʀʏɪɴɢ ᴛᴏ sᴇɴᴅ ᴏᴛᴩ ᴀᴛ ᴛʜᴇ ɢɪᴠᴇɴ ɴᴜᴍʙᴇʀ...")
+        await msg.reply("» محاولة إرسال OTP إلى nube المحدد...")
     else:
-        await msg.reply("» ᴛʀʏɪɴɢ ᴛᴏ ʟᴏɢɪɴ ᴠɪᴀ ʙᴏᴛ ᴛᴏᴋᴇɴ...")
+        await msg.reply("» تحاول تسجيل الدخول عبر رمز بوت ...")
     if telethon and is_bot:
         client = TelegramClient(StringSession(), api_id, api_hash)
     elif telethon:
