@@ -74,7 +74,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, old_pyro: 
         ty += " بوت"
     await msg.reply(f"» حسنأً اخترت  **{ty}** جلسه...")  
     user_id = msg.chat.id
-    api_id_msg = await bot.ask(user_id, "حسنا قم ب ارسال ال   **𝐀𝐏𝐈_𝐈𝐃** الكود.\n\nاو الضغط على/skip للمواصل عبر ايبات السورس", filters=filters.text)
+    api_id_msg = await bot.ask(user_id, "حسنا قم ب ارسال ال   **𝐀𝐏𝐈_𝐈𝐃** الكود.\n\nاو الضغط على /skip  للمواصل عبر ايبات السورس", filters=filters.text)
     if await cancelled(api_id_msg):
         return
     if api_id_msg.text == "/skip":
