@@ -19,7 +19,7 @@ async def start(bot: Client, msg: Message):
 والبايرجرامv2.
 وجلسات الترمكس بشكل امن بوت سورس نجد 🇸🇦.
 
-Dev🏅  : [𝒏𝒂𝒋𝒅 🇸🇦](tg://user?id={7085943284}) !""",
+Dev🏅  : [𝒏𝒂𝒋𝒅 🇸🇦](tg://user?id={OWNER_ID}) !""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -27,7 +27,7 @@ Dev🏅  : [𝒏𝒂𝒋𝒅 🇸🇦](tg://user?id={7085943284}) !""",
                 ],
                 [
                     InlineKeyboardButton(" 𝒔𝒐𝒖𝒓𝒄𝒆 𝒏𝒂𝒋𝒅 🇸🇦", url="https://t.me/ngd_1"),
-                    InlineKeyboardButton("َقن اة السورس 𓏺", url="https://t.me/ngd_5")
+                    InlineKeyboardButton("َقناة السورس 𓏺", url="https://t.me/ngd_5")
                 ]
             ]
         ),
