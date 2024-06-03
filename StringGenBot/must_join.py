@@ -20,7 +20,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply_photo(
-                    photo="https://telegra.ph/file/7b6a245c12784a6233069.jpg", caption=f"»   [لا يمكنك استخدام البوت يجب عليك اشتراك فيقناة السورس]({link}).  بعد انضمامك لقناة السورس يمكنك ضغط استرت مجددا!",
+                    photo="https://telegra.ph/file/7b6a245c12784a6233069.jpg", caption=f"»   [لا يمكنك استخدام البوت يجب عليك اشتراك في قناة السورس]({link}).  بعد انضمامك لقناة السورس يمكنك ضغط استرت مجددا!",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
